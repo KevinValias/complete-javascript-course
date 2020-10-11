@@ -33,3 +33,26 @@ console.log('hello world')
 // job = 'Teacher';
 // console.log(job);
 
+/* Variable mutation and Type Coercion*/
+
+// const firstName = 'John';
+// const age = 28;
+// console.log(firstName + ' is ' + age);
+// Putting together a number and a string = type coercion //
+
+// let job, isMarried;
+// job = 'Teacher';
+// isMarried = 'False';
+// console.log(firstName + ' is a ' + age + ' year old ' +  job + '. Is he married?' + isMarried); 
+
+// Variable Mutation //
+
+//  let age = 'twenty eight';
+// job = 'driver';
+
+// alert(firstName + ' is a ' + age + ' year old ' +  job + '. Is he married?' + isMarried); 
+
+// const lastName = prompt('What is his last name?');
+// console.log(firstName + ' ' + lastName);
+
+// Basic Operators

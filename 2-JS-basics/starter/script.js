@@ -56,3 +56,25 @@ console.log('hello world')
 // console.log(firstName + ' ' + lastName);
 
 // Basic Operators
+let year, yearJohn, yearMark;
+now = 2018
+ageJohn = 28;
+ageMark = 33;
+// Math Operators /
+yearJohn = now - ageJohn;
+yearMark = now - ageMark;
+console.log(yearMark);
+console.log(now + 2);
+console.log(now * 2);
+console.log(now / 10);
+
+//  Logical Operators
+const johnOlder = ageJohn < ageMark;
+console.log(johnOlder);
+
+// Typeof Operator --tells the type of data
+console.log(typeof johnOlder); //boolean
+console.log(typeof ageJohn); //number
+console.log(typeof 'Mark is older than John'); //string
+let x;
+console.log(typeof x); // undefined

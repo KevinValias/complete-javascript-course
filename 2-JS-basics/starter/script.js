@@ -56,25 +56,59 @@ console.log('hello world')
 // console.log(firstName + ' ' + lastName);
 
 // Basic Operators
-let year, yearJohn, yearMark;
-now = 2018
-ageJohn = 28;
-ageMark = 33;
+// let year, yearJohn, yearMark;
+// now = 2018
+// ageJohn = 28;
+// ageMark = 33;
 // Math Operators /
-yearJohn = now - ageJohn;
-yearMark = now - ageMark;
-console.log(yearMark);
-console.log(now + 2);
-console.log(now * 2);
-console.log(now / 10);
+// yearJohn = now - ageJohn;
+// yearMark = now - ageMark;
+// console.log(yearMark);
+// console.log(now + 2);
+// console.log(now * 2);
+// console.log(now / 10);
 
 //  Logical Operators
-const johnOlder = ageJohn < ageMark;
-console.log(johnOlder);
+// const johnOlder = ageJohn < ageMark;
+// console.log(johnOlder);
 
 // Typeof Operator --tells the type of data
-console.log(typeof johnOlder); //boolean
-console.log(typeof ageJohn); //number
-console.log(typeof 'Mark is older than John'); //string
-let x;
-console.log(typeof x); // undefined
+// console.log(typeof johnOlder); //boolean
+// console.log(typeof ageJohn); //number
+// console.log(typeof 'Mark is older than John'); //string
+// let x;
+// console.log(typeof x); // undefined
+
+// Operator Precedence //
+
+const now = 2018;
+const yearJohn = 1989;
+const fullAge = 18;
+// Showing which operators get used first in order of precedence// ' - ' then ' > ' then ' = '
+
+// multiple operators //
+const isFullAge = now - yearJohn >= fullAge;
+console.log(isFullAge); //true
+
+// Grouping
+const ageJohn = now - yearJohn;
+const ageMark = 35;
+const average = (ageJohn + ageMark) / 2;
+console.log(average);
+
+// Multiple Assignments //
+let x,y;
+x = y = (3 + 5) * 4 - 6; // next step - 8 * 4 - 6 // next step - 32 - 6 // 26
+console.log(x,y);
+
+// More Operators //
+
+
+x *= 2;
+console.log(x);
+x += 10;
+console.log(x)
+x = x + 1;
+x += 1;
+x++;
+console.log(x);
